@@ -21,5 +21,6 @@ public class SaveProject {
         pc.newProject();
         logger.info("save project");
         pc.saveProject(pc.getCurrentProject(),new File("save_project.gephi"));
+        logger.info("saved project");
     }
 }
