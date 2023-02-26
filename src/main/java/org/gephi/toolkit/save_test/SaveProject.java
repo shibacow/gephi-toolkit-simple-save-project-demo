@@ -23,6 +23,7 @@ public class SaveProject {
         ProjectController pc = Lookup.getDefault().lookup(ProjectController.class);
         logger.info("start pc");
         pc.newProject();
+        /*
         //pc.openProject(new File("外事.gephi"));
         Workspace workspace = pc.getCurrentWorkspace();
 
@@ -32,9 +33,10 @@ public class SaveProject {
         System.out.println("Edges: " + graph.getEdgeCount());
 
         logger.info("save project");
+        */
 
         File save_file = new File("save_project.gephi");
-        pc.saveProject(pc.getCurrentProject(),save_file);
+        pc.saveProject(pc.getCurrentProject(),save_file).run();
         if(save_file.exists()){
             logger.info("save_project.gephi is exists");
         }else{

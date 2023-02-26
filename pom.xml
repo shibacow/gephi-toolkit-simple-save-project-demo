@@ -26,11 +26,12 @@
                         <configuration>
 <!-- 
                            <file>${project.basedir}/lib/gephi-toolkit-0.10.1-all.jar</file>
---> 
                            <file>${project.basedir}/lib/gephi-toolkit-0.10.2-SNAPSHOT-all.jar</file>
+-->
+                           <file>${project.basedir}/lib/gephi-toolkit-0.9.7-all.jar</file>
                             <groupId>org.gephi</groupId>
                             <artifactId>gephi-toolkit</artifactId>
-                            <version>0.10.2-SNAPSHOT</version>
+                            <version>0.9.7</version>
                             <packaging>jar</packaging>
                         </configuration>
                     </execution>
@@ -48,7 +49,7 @@
         <dependency>
             <groupId>org.gephi</groupId>
             <artifactId>gephi-toolkit</artifactId>
-            <version>0.10.2-SNAPSHOT</version>
+            <version>0.9.7</version>
         </dependency>
     </dependencies>
 </project>

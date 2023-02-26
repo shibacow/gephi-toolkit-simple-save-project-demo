@@ -1,6 +1,6 @@
 #!/bin/bash
 set -ue
-
+mvn clean
 mvn clean install
 mvn compile
 mvn test
