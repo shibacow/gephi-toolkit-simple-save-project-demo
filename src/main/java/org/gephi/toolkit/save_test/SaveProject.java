@@ -22,8 +22,8 @@ public class SaveProject {
         logger.setLevel(Level.INFO);
         ProjectController pc = Lookup.getDefault().lookup(ProjectController.class);
         logger.info("start pc");
-        //pc.newProject();
-        pc.openProject(new File("外事.gephi"));
+        pc.newProject();
+        //pc.openProject(new File("外事.gephi"));
         Workspace workspace = pc.getCurrentWorkspace();
 
         GraphModel graphModel = Lookup.getDefault().lookup(GraphController.class).getGraphModel();
