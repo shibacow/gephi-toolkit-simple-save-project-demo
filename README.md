@@ -1,4 +1,4 @@
-# シンプルなgephi toolkit セーブテスト
+# シンプルなgephi toolkit セーブサンプル
 
 javaとkotlinで書いている。
 
