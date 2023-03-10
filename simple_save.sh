@@ -1,4 +1,4 @@
 #!/bin/bash
 set -ue
 
-kotlin simple_save.kts
+kotlin simple_save.main.kts
