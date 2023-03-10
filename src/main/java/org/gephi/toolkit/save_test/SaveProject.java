@@ -35,7 +35,7 @@ public class SaveProject {
         try{
             File save_file = new File("save_project.gephi");
             save_file.createNewFile(); //work around
-            pc.saveProject(pc.getCurrentProject(),save_file).run();
+            pc.saveProject(pc.getCurrentProject(),save_file);
             if(save_file.exists()){
                 logger.info("save_project.gephi is exists");
            }else{
